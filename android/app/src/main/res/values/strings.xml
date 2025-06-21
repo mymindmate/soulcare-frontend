@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SoulCare</string>
+    <string name="title_activity_main">SoulCare</string>
+    <string name="package_name">io.soulcare.app</string>
+    <string name="custom_url_scheme">io.soulcare.app</string>
+</resources>

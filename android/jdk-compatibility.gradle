@@ -1,0 +1,24 @@
+/**
+ * This Gradle script optimizes compatibility with JDK 17
+ */
+
+// Get the Java version being used to run Gradle
+def javaVersion = System.getProperty('java.version')
+def majorVersion = javaVersion.split('\\.')[0].toInteger()
+
+println "Building with Java version: ${javaVersion}"
+
+// Verify the JDK version is appropriate
+if (majorVersion != 17) {
+    println "WARNING: This project is optimized for JDK 17 specifically. You are using JDK ${majorVersion}."
+    println "For best results, please use JDK 17."
+}
+
+// Apply sensible JDK 17 settings
+allprojects {
+    tasks.withType(JavaCompile).configureEach {
+        // Set compatibility to Java 17
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}

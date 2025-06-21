@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#6b46c1"/>
+  <circle cx="256" cy="256" r="180" fill="#7a56d4"/>
+  
+  <!-- Stylized heart with a wave in the middle -->
+  <path d="M338 190.5C338 166.5 319 147 295.5 147C277.5 147 262 157.5 256 173C250 157.5 234.5 147 216.5 147C193 147 174 166.5 174 190.5C174 204.5 179.5 217.5 189 225.5L256 292.5L323 225.5C332.5 217.5 338 204.5 338 190.5Z" fill="white"/>
+  
+  <!-- Curved line representing care/wellness -->
+  <path d="M196 300C226 325 286 325 316 300" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Sparkles/energy dots around the edge -->
+  <circle cx="170" cy="230" r="10" fill="white"/>
+  <circle cx="342" cy="230" r="10" fill="white"/>
+  <circle cx="256" cy="350" r="10" fill="white"/>
+</svg>
